@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borders{
+    display: flex;
+    gap: 30px;
+}
+
+.border-1{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.6s linear infinite;
+}
+.border-2{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.61s linear infinite;
+}
+.border-3{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.62s linear infinite;
+}
+.border-4{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.63s linear infinite;
+}
+.border-5{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.64s linear infinite;
+}
+.border-6{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.65s linear infinite;
+}
+.border-7{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.65s linear infinite;
+}
+.border-8{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.66s linear infinite;
+}
+.border-9{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.67s linear infinite;
+}
+.border-10{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.68s linear infinite;
+}
+.border-11{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.69s  linear infinite;
+}
+.border-12{
+    width: 5px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: rgb(57, 175, 57);
+    animation: loading 0.70s linear infinite;
+}
+
+
+@keyframes loading{
+    50%{
+        transform: scaleY(2);
+        background-color: yellow;
+    }
+    100%{
+        transform: scaleY(1);
+        background-color: rgb(57, 175, 57);
+    }
+}
